@@ -1,0 +1,10 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightsalmon;
+}
+
+img {
+    object-fit: cover;
+    width: 230px; 
+    height: 230px;
+}
