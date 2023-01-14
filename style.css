@@ -1,10 +1,67 @@
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: lightsalmon;
+    font-family:'GFS Neohellenic', 'Arial Narrow', Arial, sans-serif;
 }
 
-img {
+ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.navbar p {
+    color: #e2b260;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.desc .container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.desc .container img {
+    width: 300px;
+}
+
+.desc .container p {
+    padding-right: 20px;
+}
+
+.recipes {
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   flex-wrap: wrap;
+}
+
+.recipes img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
     object-fit: cover;
-    width: 230px; 
-    height: 230px;
+}
+
+.recipes-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
 }
